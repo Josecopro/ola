@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+.content_titulo_servicios {
+  text-align: center;
+}
+
+.content_titulo_servicios h2 {
+  font-size: 40px;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f99aaa;
+}
+
+.img_servicio {
+  border-radius: 50%;
+}
+
+.conten_img_servicios {
+  background-color: #f99aaa;
+  position: absolute;
+  margin-top: 0;
+  padding: 20px 0 0 23px;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  gap: 30px;
+}
+.conten_img_servi{
+
+    background-color: #f99aaa;
+    position: absolute;
+    margin-top: 0;
+    padding: 20px 0 0 23px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    gap: 40px;      
+}

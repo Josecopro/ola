@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.contetainer_titulo {
+  width: 100%;
+  background: #fff;
+  border-bottom: #00000000;
+  border: solid 1px #ff99aa;
+}
+
+h4 {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  border: solid 1px #ff99aa;
+  border-radius: 10px;
+  background-color: #ff99aa;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 7px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 15px;
+  color: #333;
+}
+
+.card p {
+  margin: 0 15px 10px;
+  color: #777;
+  font-size: 14px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 10px;
+}
+
+.score {
+  font-size: 18px;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.details {
+  font-size: 14px;
+  color: #777;
+}
+
+.price {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.price strong {
+  color: #333;
+}
+.titulo h1 {
+  justify-content: center;
+  display: flex;
+}
+@keyframes fondo {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#amoalaura {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 40px;
+}

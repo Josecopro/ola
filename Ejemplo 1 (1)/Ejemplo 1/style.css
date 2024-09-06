@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.container_fondo{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(75deg,#F99AAA,#ffffff,#ee3573);
+    background-size: 400% 400%;
+    position: relative;
+    animation: fondo 3s ease infinite;
+}
+.container_form{
+    width: 35%;   
+    border:solid 4px white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(217,217, 217,0.5);
+    padding: 20px;
+    color: #d83939;
+}
+.container_form a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+@keyframes fondo {
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }
+}

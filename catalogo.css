@@ -1,0 +1,120 @@
+.TituloCatalogo{
+    text-align: center;
+    font-size: 2em;
+    color: #f99aaa;
+    margin: 1em;
+}
+.SubtituloCatalogo{
+    text-align: center;
+    font-size: 1.5em;
+    color: #f99aaa;
+    margin: 1em;
+}
+.Catalogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100vw;
+    place-content: center;
+}
+
+.CardCatalogo__Imagen img{
+    width: 100%;
+    height: auto;
+    border-radius: 2em;
+    aspect-ratio: 1/1;
+}
+.ImgAlgo{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+.modal-content{
+    max-width: 30vw;
+    margin: auto;
+}
+.CardCatalogo{
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: .4s all ease-in;
+    background-color: #f99aaa;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.CardCatalogo:hover{
+    transition: .4s all ease-in;
+    background-color: #f7778d;
+    box-shadow: 0 0 10px #f99aaa;
+}
+.CardCatalogo__Item{
+    text-align: center;
+    color: azure;
+    font-size: 1.4em;
+}
+.CardCatalogo__Precio{
+    font-size: 1.2em;
+    color: azure;
+    text-align: center;
+}
+.CardCatalogo__Botones{
+display: grid;
+justify-content: center;
+}
+.CardCatalogo__Boton--Compra{
+    transition: .4s all ease-in;
+    background: none;
+    color: azure;
+    border: 2px solid azure;
+    padding: 0.5em 1em;
+    border-radius: .7em;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 0.5em;
+    text-decoration: none;
+    text-align: center;
+}
+.CardCatalogo__Boton--Compra:hover{
+    transition: .4s all ease-in;
+    background-color: azure;
+    color: #f99aaa;
+}
+
+
+.BuyModal__Title{
+    text-align: center;
+    font-size: 2em;
+    color: #f99aaa;
+    margin: 1em;
+}
+
+@media screen and (max-width: 768px){
+    .Catalogo{
+        grid-template-columns: 1fr;
+    }
+    .CardCatalogo{
+        margin: 1em 0;
+    }
+    .CardCatalogo__Imagen img{
+        width: 100%;
+        height: auto;
+        border-radius: 2em;
+        aspect-ratio: 1/1;
+    }
+    .modal-content{
+        max-width: 80vw;
+        margin: auto;
+    }
+    .CardCatalogo__Item{
+        font-size: 1.2em;
+    }
+    .CardCatalogo__Precio{
+        font-size: 1em;
+    }
+    .CardCatalogo__Boton--Compra{
+        font-size: 1em;
+    }
+    .BuyModal__Title{
+        font-size: 1.5em;
+    }
+    
+}
